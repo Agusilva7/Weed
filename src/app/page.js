@@ -22,7 +22,7 @@ export default function Home() {
     <div className="absolute inset-0 bg-[#1c1c1c] opacity-50 z-0"></div>
 
       <div className="relative  container mx-auto h-full">
-        <section className="flex flex-col h-full justify-center items-end container mx-auto p-20 z-10 gap-2.5 ">
+        <section className="flex flex-col h-full justify-center items-end container mx-auto p-5 md:p-8 lg:p-20 z-10 gap-2.5 ">
           <h2 className="text-3xl">Asesoramiento personalizado!</h2>
           <p className="w-[500px] md:w-[600px] ">Si sos nuevo o querés mejorar tus cultivos, te acompañamos en cada paso. Desde cómo germinar hasta cuándo cosechar. Venite al local o escribinos por WhatsApp. Somos cultivadores como vos.</p>
           <button className="p-2 rounded-2xl border text-[16px] mt-2.5 w-[250px]">Envianos un WhatsApp!</button>
