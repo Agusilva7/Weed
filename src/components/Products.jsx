@@ -39,7 +39,7 @@ export default function Product(){
                 {
                     geneticas.map((elemento)=>{
                         return(
-                            <div key={elemento.id} className="bg-[#1c1c1c] flex flex-col items-center rounded-4xl gap-0 border border-white hover:border-green-700   basis-auto sm:basis-auto lg:basis-1/4 grow shrink-0">
+                            <div key={elemento.id} className="bg-[#1c1c1c] flex flex-col items-center rounded-4xl gap-0 border border-white hover:border-green-700 md:max-w-[3S0px]  grow shrink-0">
                                 <img src={elemento.image} width={"350px"} className="rounded-4xl"/>
                                 <section className="p-5 flex flex-col text-center gap-2.5">
                                     <h3 className="text-2xl">{elemento.name}</h3>

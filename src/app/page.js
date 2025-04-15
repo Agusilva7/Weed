@@ -40,8 +40,8 @@ export default function Home() {
     
       <div className="absolute inset-0 bg-[#1c1c1c] opacity-50 z-0"></div>
 
-      <div className="relative  container mx-auto h-full">
-        <section className="flex flex-col h-full justify-center container mx-auto p-20 z-10 gap-2.5 ">
+      <div className="relative  container mx-auto h-full ">
+        <section className="flex flex-col h-full justify-center container mx-auto p-5 md:p-8 lg:p-20 z-10 gap-2.5 ">
           <h2 className="text-3xl">🌱 Conocé quiénes somos</h2>
           <p className=" w-[500px] md:w-[600px] ">En nuestro Grow Shop no solo cultivamos genéticas, también cultivamos una comunidad.
           Descubrí nuestra historia, nuestro equipo y la pasión que nos llevó a crear un espacio pensado para cultivadores como vos.</p>
