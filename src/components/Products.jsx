@@ -30,8 +30,9 @@ export default function Product(){
         <section className="w-full flex flex-col gap-8 justify-center container p-5 md:p-8 lg:p-20 ">
 
             <section className="flex flex-col  text-center gap-2.5">
-                <h2 className="text-4xl">Featured Products</h2>
-                <p>Choose your favorite strains. Prices will be calculated upon chechout.</p>
+                <h2 className="text-4xl">Nuestras Genéticas</h2>
+                <p>Desarrollamos variedades únicas adaptadas al clima y necesidades del cultivador argentino.
+                </p>
             </section>
 
             <div className="w-full flex flex-wrap  sm:flex-wrap md:flex-wrap lg:flex-nowrap  gap-8 justify-center ">

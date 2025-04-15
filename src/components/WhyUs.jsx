@@ -18,8 +18,8 @@ const items=[
 export default function WhyUs(){
     return(
         <section className="p-5 md:p-8 lg:p-20 gap-2.5 flex  flex-col text-center">
-            <h2 className="text-4xl">Why Plantie</h2>
-            <p>Here's why people choose to order from us</p>
+            <h2 className="text-4xl">¿Por qué elegirnos?</h2>
+            <p>Esto es lo que nos diferencia de cualquier otro Grow Shop</p>
 
             <div className="flex flex-col md:flex-col lg:flex-row gap-8 container pt-2.5">
             {

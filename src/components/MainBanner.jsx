@@ -1,6 +1,6 @@
 export default function MainBanner(){
     return(
-    <section  style={{ backgroundImage: "url('/cannabis.png')" }} className=" h-[45vw] w-full   bg-contain bg-no-repeat bg-right ">
+    <section  style={{ backgroundImage: "url('/cannabis.png')" }} className=" h-[45vw] w-full  bg-contain bg-no-repeat bg-right ">
       <div className="flex flex-col container mx-auto  justify-center h-full gap-2.5 p-20 text-white">
         <h1 className="text-5xl">Grow Shop</h1>
         <h2 className="text-2xl">En General Rodriguez</h2>
