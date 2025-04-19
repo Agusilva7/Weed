@@ -22,9 +22,9 @@ export default function Home() {
     <div className="absolute inset-0 bg-[#1c1c1c] opacity-50 z-0"></div>
 
       <div className="relative  container mx-auto h-full">
-        <section className="flex flex-col h-full justify-center items-end container mx-auto p-5 md:p-8 lg:p-20 z-10 gap-2.5 ">
+        <section className="flex flex-col h-full justify-center items-center lg:items-end container mx-auto p-5 md:p-8 lg:p-20 z-10 gap-2.5 ">
           <h2 className="text-3xl">Asesoramiento personalizado!</h2>
-          <p className="w-[500px] md:w-[600px] ">Si sos nuevo o querés mejorar tus cultivos, te acompañamos en cada paso. Desde cómo germinar hasta cuándo cosechar. Venite al local o escribinos por WhatsApp. Somos cultivadores como vos.</p>
+          <p className="w-[500px] md:w-[600px] text-center lg:text-end">Si sos nuevo o querés mejorar tus cultivos, te acompañamos en cada paso. Desde cómo germinar hasta cuándo cosechar. Venite al local o escribinos por WhatsApp. Somos cultivadores como vos.</p>
           <button className="p-2 rounded-2xl border text-[16px] mt-2.5 w-[250px]">Envianos un WhatsApp!</button>
         </section>
     </div>
@@ -41,9 +41,9 @@ export default function Home() {
       <div className="absolute inset-0 bg-[#1c1c1c] opacity-50 z-0"></div>
 
       <div className="relative  container mx-auto h-full ">
-        <section className="flex flex-col h-full justify-center container mx-auto p-5 md:p-8 lg:p-20 z-10 gap-2.5 ">
+        <section className="flex flex-col h-full justify-center items-center lg:items-start container mx-auto p-5 md:p-8 lg:p-20 z-10 gap-2.5 ">
           <h2 className="text-3xl">🌱 Conocé quiénes somos</h2>
-          <p className=" w-[500px] md:w-[600px] ">En nuestro Grow Shop no solo cultivamos genéticas, también cultivamos una comunidad.
+          <p className=" w-[500px] md:w-[600px] text-center lg:text-start">En nuestro Grow Shop no solo cultivamos genéticas, también cultivamos una comunidad.
           Descubrí nuestra historia, nuestro equipo y la pasión que nos llevó a crear un espacio pensado para cultivadores como vos.</p>
           <button className="p-2 rounded-2xl border text-[16px] mt-2.5 w-[250px]">👉 Conocé más sobre nosotros</button>
         </section>
